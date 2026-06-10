@@ -38,13 +38,78 @@ age = 20
 # else:
 #     print("불합격")
 
-score = 75
+# score = 75
 
-if score >= 90:
-    print("A")
-elif score >= 80:
-    print("B")
-elif score >= 70:
-    print(score,"점이라서 C이군요ㅜㅜ")
-else:
-    print("F")
+# if score >= 90:
+#     print("A")
+# elif score >= 80:
+#     print("B")
+# elif score >= 70:
+#     print(score,"점이라서 C이군요ㅜㅜ")
+# else:
+#     print("F")
+
+
+# 리스트
+# fruits = ["사과", "바나나", "포도"]
+
+# fruits = {
+#     0 : "사과",
+#     1 : "바나나",
+#     2 : "포도"
+# }
+# print(fruits[0])
+
+# 유치원 = {
+#     "해바라기" : ["유아인","정혜인"],
+#     "무궁화" : [],
+#     "개나리" : ["신동엽"]
+# }
+
+# 시각화훈련 = {
+#     "과목" : ["파이썬","깃"]
+# }
+
+# 나는 애완동물로 고양이와 개를 키웁니다.
+    # 고양이로는 보미와 겨울이가 있고,
+    # 개는 돌돌이입니다.
+
+# 파이썬 딕셔너리, 자바스크립트 object 
+# 나 = {
+#     "애완동물" : {
+#         "고양이" : ["보미","겨울"],
+#         "개" : ["돌돌이"]
+#     }
+# }
+
+# 딕셔너리
+# student = {
+#     "이름" : "홍길동",
+#     "나이" : 25
+# }
+
+# student["이름"]
+
+# for문
+
+# fruits = ["사과", "바나나", "포도"]
+
+# for fruit in fruits:
+#     print(fruit)
+
+
+
+word = "python"
+
+for ch in word:
+    if(ch != 't'):
+        print(ch)
+    else:
+        print("다필요없어")
+
+
+# for(i = 0; i < 5; i++){
+#     실행문; 
+# }
+# # int 변수
+
